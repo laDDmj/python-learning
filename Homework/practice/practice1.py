@@ -1,13 +1,13 @@
-'''
+
 #Task 1
 name = input('Enter your name: ').lower()
 surname = input('Enter your surname: ').lower()
 domain = '@kobzar.com'
 
-print(f'your email: ', name[0:1], surname, domain, sep='')
-print(f'your second email: ', name, surname[0:3], domain, sep='')
-print(f' yor third email: ', name,'_', surname, domain, sep='')
-'''
+print('your email: ', name[0:1], surname, domain, sep='')
+print('your second email: ', name, surname[0:3], domain, sep='')
+print('your third email: ', name,'_', surname, domain, sep='')
+
 '''
 #Task 2
 (не припиняється дія одразу, якщо age не цифра. 
