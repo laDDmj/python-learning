@@ -36,3 +36,24 @@ else:
     print('Unknown command, please enter y or n.')
 
 #Task 2
+
+symbol_list = ['!', '@', '#', '$', '%', '&', '*']
+while True:
+
+    password = input('Enter new password:\n')
+    if len(password) <= 9 or not any(s.isdigit() for s in password) \
+            or not any(s.isupper() for s in password) \
+            or not any(s in symbol_list for s in password):
+
+        print('Wrong! Please use upper, degits, min 9 symbols and spec symbol in: ', symbol_list, '\n')
+
+    else:
+        print('Accepted')
+        break
+
+
+
+
+
+
+
